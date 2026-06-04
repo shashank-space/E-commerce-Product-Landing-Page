@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TechStore | E-Commerce Landing Page</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Loading Screen -->
+    <div id="loader">
+
+        <div class="spinner"></div>
+
+    </div>
+
+    <!-- Header -->
+    <header>
+
+        <nav class="navbar">
+
+            <div class="logo">
+                TechStore
+            </div>
+
+            <div class="hamburger">
+                ☰
+            </div>
+
+            <ul class="nav-links">
+
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="products.html">Products</a>
+                </li>
+
+                <li>
+                    <a href="categories.html">Categories</a>
+                </li>
+
+                <li>
+                    <a href="cart.html">Cart</a>
+                </li>
+
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+
+            </ul>
+
+            <div class="cart">
+
+                🛒 <span id="cartCount">0</span>
+
+            </div>
+
+            <button id="themeBtn">
+                🌙
+            </button>
+
+        </nav>
+
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <h1>Future Technology Starts Here</h1>
+
+            <p>
+                Discover premium gadgets, laptops, smartphones,
+                and accessories at unbeatable prices.
+            </p>
+
+            <a href="products.html" class="btn">
+                Shop Now
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- Featured Products -->
+    <section class="products hidden">
+
+        <h2>Featured Products</h2>
+
+        <div class="product-grid">
+
+            <div class="card">
+
+                <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=600"
+                    alt="Laptop">
+
+                <h3>Gaming Laptop</h3>
+
+                <p>₹89,999</p>
+
+                <button class="buy-btn">
+                    Add To Cart
+                </button>
+
+            </div>
+
+            <div class="card">
+
+                <img src="photos/phone.png"
+                    alt="Phone">
+
+                <h3>Smartphone</h3>
+
+                <p>₹39,999</p>
+
+                <button class="buy-btn">
+                    Add To Cart
+                </button>
+
+            </div>
+
+            <div class="card">
+
+                <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600"
+                    alt="Headphones">
+
+                <h3>Wireless Headphones</h3>
+
+                <p>₹4,999</p>
+
+                <button class="buy-btn">
+                    Add To Cart
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Features Section -->
+    <section class="features hidden">
+
+        <h2>Why Choose Us?</h2>
+
+        <div class="feature-container">
+
+            <div class="feature-box">
+
+                <h3>🚚 Fast Delivery</h3>
+
+                <p>
+                    Quick and secure shipping all across India.
+                </p>
+
+            </div>
+
+            <div class="feature-box">
+
+                <h3>🔒 Secure Payments</h3>
+
+                <p>
+                    Safe and encrypted payment methods.
+                </p>
+
+            </div>
+
+            <div class="feature-box">
+
+                <h3>⭐ Premium Quality</h3>
+
+                <p>
+                    Top-rated electronics from trusted brands.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonial hidden">
+
+        <h2>What Our Customers Say</h2>
+
+        <div class="review-container">
+
+            <div class="review">
+
+                <p>
+                    "Excellent products and fast delivery!"
+                </p>
+
+                <h4>- Rahul Sharma</h4>
+
+            </div>
+
+            <div class="review">
+                <p>
+                    "Best shopping experience I've had online."
+                </p>
+                <h4>- Priya Verma</h4>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- Newsletter -->
+    <section class="newsletter">
+
+        <h2>Subscribe To Our Newsletter</h2>
+        <p>
+            Get updates on new products and special offers.
+        </p>
+
+        <form id="subscribeForm">
+            <input type="email"
+                placeholder="Enter your email"
+                required>
+
+            <button type="submit">
+                Subscribe
+            </button>
+        </form>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>
+            © 2026 TechStore. All Rights Reserved.
+        </p>
+    </footer>
+    <!-- Back To Top -->
+    <button id="topBtn">
+        ↑
+    </button>
+    <script src="script.js"></script>
+</body>
+</html>
